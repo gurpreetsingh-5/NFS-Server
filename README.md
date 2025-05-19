@@ -24,6 +24,8 @@ sudo firewall-cmd --permanent --add-service=mountd
 sudo firewall-cmd --permanent --add-service=rpc-bind
 sudo firewall-cmd --reload
 sudo firewall-cmd --list-services | grep nfs
+
+
 for Client---
 
 sudo dnf install nfs-utils -y
