@@ -2,6 +2,8 @@
 ## using RHEL 9 OS
 
 ```
+for server--
+
 sudo dnf install nfs-utils -y
 sudo systemctl enable --now nfs-server
 sudo systemctl status nfs-server
